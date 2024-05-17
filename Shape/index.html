@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Manipulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Shape Manipulator</h1>
+    </header>
+    <main>
+        <div class="controls">
+            <div class="shapeControls">
+                <label for="shapeType">Shape:</label>
+                <select id="shapeType">
+                    <option value="square">Square</option>
+                    <option value="circle">Circle</option>
+                </select>
+                <label for="shapeColor">Color:</label>
+                <input type="color" id="shapeColor">
+                <button id="addShape">Add Shape</button>
+                <button id="removeShape">Remove Shape</button>
+                <button id="removeAllShapes">Remove All Shapes</button>
+            </div>
+        </div>
+        <div class="shapeContainerWrapper">
+            <div class="shapeContainer"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shape Manipulator. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
